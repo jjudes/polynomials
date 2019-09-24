@@ -3,3 +3,5 @@ The above is a simple representation in Java of multivariate polynomials from R^
 Methods are provided to retrieve information about each class of object (e.g. multidegree, length, string representation, etc.) as well as to do simple operations (addition, multiplication, long division, etc.)
 
 Also included is the (work in progress) Ideal class. Ideal represents a mathematical ideal in the mathematical ring of polynomials. The class is initialized with Polynomials by which it is defined, and when initialized the class will compute a Groebner basis for the ideal.
+
+The Solver is a Sudoku solver which represents Sudoku as a system of polynomial equations. It computes the unique solution by using the Groebner basis associated to the corresponding ideal.
